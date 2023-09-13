@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Task 5</title>
+
+    <style>
+        
+        table{
+            margin-left: 30%;
+            margin-top: 5%;
+        }
+        th,td{
+            border: 1px solid black;
+        }
+        
+
+        input{
+            padding-left: 300px;
+        }
+        #register{
+            padding-left: 20px;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-weight: 600;
+            text-align: center !important;
+        }
+        #temp{
+            border: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" style="color: firebrick;">Registration Form</h1>
+    <table>
+        <form action="">
+            <tr>
+                <th>First Name:</th>
+                <td><input type="text" name="fname" id="fname"></td>
+            </tr>
+            <tr>
+                <th>Last Name:</th>
+                <td><input type="text" name="lname" id="lname"></td>
+            </tr>
+
+            <tr>
+                <th>Email:</th>
+                <td><input type="email" name="mail" id="mail"></td>
+            </tr>
+
+            <tr>
+                <th>Password:</th>
+                <td><input type="password" name="pwd" id="pwd"></td>
+            </tr>
+            <tr>
+                <th>Re Password:</th>
+                <td><input type="password" name="rpwd" id="rpwd"></td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Gender:</th>
+                <td><input type="radio" name="gnd" id="gnd" value="Male">Male</td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" name="gnd" id="gnd" value="Female">Female</td>
+            </tr>
+
+            <tr>
+                <th>Age:</th>
+                <td><input type="text" name="age" id="age"></td>
+            </tr>
+
+            <tr>
+                <th>Phone Number:</th>
+                <td><input type="text" name="phno" id="phno"></td>
+            </tr>
+
+            <tr>
+                <th>Address</th>
+                <td><textarea name="address" id="address" cols="50" rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <th>
+                    State
+                </th>
+                <td><input type="text" name="state" id="state"></td>
+            </tr>
+
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select name="country" id="country" placeholder="Choose Your Country">
+                        <option value="na">--Choose your country--</option>
+                        <option value="Bharat">Bharat</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="aus">Austrila</option>
+                        <option value="sa">South Africa</option>
+                        <option value="china">China</option>
+                        <option value="jpn">Japan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Languages Known</th>
+                <td><input type="checkbox" name="lan" id="eng">English
+                    <input type="checkbox" name="lan" id="kan">kannada
+                    <input type="checkbox" name="lan" id="hin">Hindi
+                    <input type="checkbox" name="lan" id="tel">Telugu</td>
+            </tr>
+            <tr>
+                <th colspan="2" style="font-weight: 200;"><input type="checkbox" name="terms" id="terms">Hereby I declare all the given details are true</th>
+            </tr>
+            <tr>
+                <th colspan="2" align="right" style="font-weight: 200;">
+                    Login in to <a href="#">Ethnus</a>website
+                </th>
+            </tr>
+
+            <tr>
+                <th colspan="2" align="center" id="temp">
+                    <input type="submit" name="register" id="register" value="Register">
+                </th>
+            </tr>
+
+        </form>
+    </table>
+    
+</body>
+</html>

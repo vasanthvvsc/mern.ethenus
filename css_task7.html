@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>CSS TASKS</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form {
+            height: 500px;
+            width: 500px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 30px;
+            background-color: rgb(116, 32, 63);
+        }
+
+        table {
+            height: 450px;
+            text-align: left;
+            background-color: rgb(89, 10, 39);
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="form">
+            <form>
+                <table align="center">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Phn number">Phone Number:</label></td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Gender">Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" name = "Gender">Male
+                            <input type="radio" name = "Gender">Female
+                            <input type="radio" name = "Gender">Other
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <label for="Language">Language</label>
+                        </td>
+                        <td>
+                            <select name="Language">
+                                <option value="Select Language">Select Language</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="Hindi">Hindi</option>
+                                <option value="English">English</option>
+                                <option value="Tamil">Tamil</option>
+                                <option value="Spanish">Spanish</option>
+                                <option value="japanese">japanese</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ZC">Zip code:</label>
+                        </td>
+                        <td>
+                            <input type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="About">About</label>
+                        </td>
+                        <td>
+                            <textarea name="About" id="" cols="30" rows="2"
+                                placeholder="Write about yourself"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit"> Register</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+</body>
+
+</html>

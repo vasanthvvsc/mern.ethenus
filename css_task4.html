@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *{
+            font-size: 30px;
+        }
+        .a{
+            height: 500px;
+            width: 200px;
+            float: left;
+            overflow: hidden;
+            position: relative;
+        }
+        #navbar a {
+            position: absolute;
+            left: -130px;
+            transition: 0.3s;
+            padding: 20px;
+            width: 150px;
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #navbar a:hover {
+            left: 0;
+        }
+
+        #HTML {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+
+        #CSS {
+            top: 100px;
+            background-color: #2196F3;
+        }
+
+        #BootStrap {
+            top: 180px;
+            background-color: #f44336;
+        }
+
+        #JavaScript {
+            top: 260px;
+            background-color: #555
+        }
+    </style>
+</head>
+
+<body>
+        <div class="main">
+            <div id="navbar" class="a">
+                <a href="#" id="HTML">HTML</a>
+                <a href="#" id="CSS">CSS</a>
+                <a href="#" id="BootStrap">BootStrap</a>
+                <a href="#" id="JavaScript">Java Script</a>
+            </div>
+            <div style="margin-left:80px;">
+                <h2>Hoverable sidenav Buttons</h2>
+                <p>Hover over the buttons in the left side navigation to open them.</p>
+            </div>
+        </div>
+</body>
+
+</html>
